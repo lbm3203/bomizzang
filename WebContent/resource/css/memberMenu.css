@@ -1,0 +1,59 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+
+BODY {
+	margin-left: 0px;
+	FONT-SIZE: 12pt;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+	text-align: center;
+}
+
+TABLE {
+	border:1px;
+	border-color:white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:150px;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+}
+
+TD {
+	height: 40px;
+	text-align: center;
+}
+THEAD{
+	font-size: 12pt;
+	color:white;
+}
+#likeCourse THEAD {
+	background: #E4921A;
+}
+#makeCourse THEAD {
+	background: #E54F75;
+}
+#scrapPlace THEAD {
+	background: #2FB5A8;
+}
+
+
+TBODY {
+	FONT-SIZE: 10pt;
+}
+
+.memberMenu-menu {
+	width: 200px;
+	float: left;
+}
+
+.memberMenu-menu img {
+	width: 180px;
+	height: 60px;
+	margin-top: 40px;
+}
+
+ul, li {
+	margin-left: 0;
+	padding: 0;
+}

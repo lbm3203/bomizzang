@@ -1,0 +1,216 @@
+@CHARSET "UTF-8";
+
+@import url(http://fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+BODY {
+	margin-top: 30px;
+	FONT-SIZE: 12pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+	text-align: left;
+}
+
+DIV {
+	FONT-SIZE: 9pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+}
+
+FORM {
+	FONT-SIZE: 13pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+}
+
+/* ------------------------------------------------------------------------select----------------------------------------------------------------------- */
+SELECT {
+	FONT-SIZE: 12pt;
+	COLOR: black;
+	LINE-HEIGHT: 160%;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+}
+
+#joinMem select {
+	width: 120px;
+	height: 25px;
+}
+#forgetPwd select {
+	width: 140px;
+	height: 35px;
+}
+
+/* -------------------------------------------------------------------------header-------------------------------------------------------------------- */
+
+#login-header img {
+	margin-left: 390px;
+}
+#joinMem-header img {
+	margin-left: 200px;
+}
+#forgetPwd-header img {
+	margin-left: 390px;
+}
+
+/* -----------------------------------------------------------------------------table------------------------------------------------------------------- */
+TABLE {
+	margin-top: 50px;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border-top: 1px dashed;
+	border-bottom: 1px dashed;
+	border-color: #c0c0c0;
+	padding: 10px;
+}
+td {
+	height: 40px;
+	FONT-SIZE: 12pt;
+	COLOR: #000000;
+	LINE-HEIGHT: 100%;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+}
+#login TABLE {
+	margin-left: 400px;
+}
+
+#joinMem TABLE {
+	margin-left: 200px;
+}
+#forgetPwd TABLE {
+	margin-left:400px;
+}
+
+.text{
+	color: #808080;
+	text-align: center;
+	margin-left:30px;
+	margin-right: 70px;
+	text-decoration: none;
+}
+/* ----------------------------------------------------------------------a 태그-------------------------------------------------------------------------- */
+A:link {
+	text-decoration: none;
+	color: #696969;
+}
+A:visited {
+	text-decoration: none;
+}
+
+
+
+/* ------------------------------------------------------------------------button------------------------------------------------------------------------- */
+a.button { /* 기본버튼 */
+	
+	font-family: 'Jeju Gothic', serif;
+	font-size: 16px;
+	padding: 10px 20px;
+	background:#808080;
+	color:#ffffff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 1px rgba(161,95,161,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 1px rgba(161,95,161,1);
+	box-shadow:
+		0px 1px 3px rgba(255,255,255,0.5),
+		inset 0px 0px 1px rgba(161,95,161,1);
+
+}
+/* login */
+a.login-button {
+	background:#48f4d2;
+	padding: 18px 152px 18px 152px;
+}
+
+/* joinMem */
+a.join-button {
+	margin-left:420px;
+	margin-right:150px;
+	margin-bottom:100x;
+	padding: 15px 40px 15px 40px;
+}
+
+a.cancleJoin-button {
+	margin-bottom:100x;
+	padding: 15px 40px 15px 40px;
+}
+
+/* forgetPwd */
+a.forgetPwd-button2 {
+	background:#48f4d2;
+	padding: 18px 152px 18px 152px;
+}
+
+a:button span {
+	display: none;
+}
+
+.hidden {
+	display: none !important;
+}
+
+/* --------------------------------------------------------------------input------------------------------------------------------------------------------- */
+INPUT {
+	BORDER-RIGHT: 1px solid #999999;
+	BORDER-TOP: 1px solid #999999;
+	FONT-SIZE: 10pt;
+	BORDER-LEFT: 1px solid #999999;
+	COLOR:#808080;
+	BORDER-BOTTOM: 1px solid #999999;
+	FONT-FAMILY: 'Jeju Gothic', serif;
+	HEIGHT: 19px;
+	BACKGROUND-COLOR: white
+}
+
+input[type="button"] {
+	cursor: pointer;
+}
+
+input[type="radio"] {
+	width: 30px;
+	vertical-align: middle;
+	border: none;
+	padding-right: 30px;
+	cursor: pointer;
+}
+
+#login input[type="text"] {
+	width: 350px;
+	height: 50px;
+}
+
+#login input[type="password"] {
+	width: 350px;
+	height: 50px;
+}
+
+#joinMem input[type="text"] {
+	width: 170px;
+	height: 25px;
+}
+
+#joinMem input[type="password"] {
+	width: 170px;
+	height: 25px;
+}
+
+#joinMem input[type="button"] {
+	margin-left:17px;
+	width: 75px;
+	height: 25px;
+}
+#forgetPwd input[type="text"] {
+	width: 330px;
+	height: 50px;
+}
+
+#forgetPwd input[type="password"] {
+	width: 330px;
+	height: 50px;
+}
